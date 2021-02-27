@@ -22,7 +22,16 @@
         "prettier"
     ],
     "rules": {
-      "class-methods-use-this": "error",
+      "no-underscore-dangle": "off",
+      "@typescript-eslint/explicit-module-boundary-types": "off",
+      "class-methods-use-this": "off",
+      "@typescript-eslint/camelcase": "off",
+      "no-useless-constructor": "off",
+      "import/no-duplicates": "off",
+      "@typescript-eslint/no-unused-vars": ["error", {
+        "argsIgnorePattern": "_"
+      }],
+      "@typescript-eslint/interface-name-prefix": ["error", { "prefixWithI": "always" }],
       "import/extensions": [
         "error",
         "ignorePackages",
