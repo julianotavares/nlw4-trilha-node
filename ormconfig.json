@@ -1,5 +1,12 @@
 {
   "name": "default",
   "type": "sqlite",
-  "database": "./src/database/database.sqlite"
+  "database": "./src/database/database.sqlite",
+
+  "cli": {
+  "migrationsDir": "./src/database/migrations"
+
+  }
+
+
 }
